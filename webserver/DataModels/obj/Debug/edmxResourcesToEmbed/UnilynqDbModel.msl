@@ -1,0 +1,904 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UnilynqDbModelStoreContainer" CdmEntityContainer="UnilynqDbEntities">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="UnilynqDbModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Chats">
+      <EntityTypeMapping TypeName="UnilynqDbModel.Chat">
+        <MappingFragment StoreEntitySet="Chats">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Sender" ColumnName="Sender" />
+          <ScalarProperty Name="Receiver" ColumnName="Receiver" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="LynQDate" ColumnName="LynQDate" />
+          <ScalarProperty Name="LynQTime" ColumnName="LynQTime" />
+          <ScalarProperty Name="LynQDT" ColumnName="LynQDT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactUqs">
+      <EntityTypeMapping TypeName="UnilynqDbModel.ContactUq">
+        <MappingFragment StoreEntitySet="ContactUqs">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Emailadd" ColumnName="Emailadd" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="Solved" ColumnName="Solved" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Fora">
+      <EntityTypeMapping TypeName="UnilynqDbModel.Forum">
+        <MappingFragment StoreEntitySet="Fora">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="LynQManager" ColumnName="LynQManager" />
+          <ScalarProperty Name="LynQFname" ColumnName="LynQFname" />
+          <ScalarProperty Name="LynQimg" ColumnName="LynQimg" />
+          <ScalarProperty Name="LynQSchimg" ColumnName="LynQSchimg" />
+          <ScalarProperty Name="LynQProg" ColumnName="LynQProg" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="Forum_Expo" ColumnName="Forum_Expo" />
+          <ScalarProperty Name="ForumScope" ColumnName="ForumScope" />
+          <ScalarProperty Name="Messages" ColumnName="Messages" />
+          <ScalarProperty Name="Forumimg" ColumnName="Forumimg" />
+          <ScalarProperty Name="ForumDate" ColumnName="ForumDate" />
+          <ScalarProperty Name="Likes" ColumnName="Likes" />
+          <ScalarProperty Name="DisLikes" ColumnName="DisLikes" />
+          <ScalarProperty Name="Likers" ColumnName="Likers" />
+          <ScalarProperty Name="Dislikers" ColumnName="Dislikers" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Gamers">
+      <EntityTypeMapping TypeName="UnilynqDbModel.Gamer">
+        <MappingFragment StoreEntitySet="Gamers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="player1" ColumnName="player1" />
+          <ScalarProperty Name="player2" ColumnName="player2" />
+          <ScalarProperty Name="saved" ColumnName="saved" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GroupChats">
+      <EntityTypeMapping TypeName="UnilynqDbModel.GroupChat">
+        <MappingFragment StoreEntitySet="GroupChats">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQGrpName" ColumnName="LynQGrpName" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="SendDate" ColumnName="SendDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQAssLoads">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQAssLoad">
+        <MappingFragment StoreEntitySet="LynQAssLoads">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="LynQGrpName" ColumnName="LynQGrpName" />
+          <ScalarProperty Name="AssName" ColumnName="AssName" />
+          <ScalarProperty Name="DateTimer" ColumnName="DateTimer" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQChatBlockers">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQChatBlocker">
+        <MappingFragment StoreEntitySet="LynQChatBlockers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="Blockee" ColumnName="Blockee" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQChatBoxes">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQChatBox">
+        <MappingFragment StoreEntitySet="LynQChatBoxes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="LynQBoxP1" ColumnName="LynQBoxP1" />
+          <ScalarProperty Name="LynQBoxP2" ColumnName="LynQBoxP2" />
+          <ScalarProperty Name="LynQBoxP3" ColumnName="LynQBoxP3" />
+          <ScalarProperty Name="LynQBoxC1" ColumnName="LynQBoxC1" />
+          <ScalarProperty Name="LynQBoxC2" ColumnName="LynQBoxC2" />
+          <ScalarProperty Name="LynQBoxC3" ColumnName="LynQBoxC3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQChatSettings">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQChatSetting">
+        <MappingFragment StoreEntitySet="LynQChatSettings">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="ChatSS" ColumnName="ChatSS" />
+          <ScalarProperty Name="ChatSL" ColumnName="ChatSL" />
+          <ScalarProperty Name="ChatSH" ColumnName="ChatSH" />
+          <ScalarProperty Name="ChatLL" ColumnName="ChatLL" />
+          <ScalarProperty Name="ChatLH" ColumnName="ChatLH" />
+          <ScalarProperty Name="ChatHH" ColumnName="ChatHH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQComments">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQComment">
+        <MappingFragment StoreEntitySet="LynQComments">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PostID" ColumnName="PostID" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="LynQFname" ColumnName="LynQFname" />
+          <ScalarProperty Name="LynQimg" ColumnName="LynQimg" />
+          <ScalarProperty Name="ComDate" ColumnName="ComDate" />
+          <ScalarProperty Name="LynQProg" ColumnName="LynQProg" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="Commimg" ColumnName="Commimg" />
+          <ScalarProperty Name="imgDescrip" ColumnName="imgDescrip" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQDepartments">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQDepartment">
+        <MappingFragment StoreEntitySet="LynQDepartments">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSchool" ColumnName="LynQSchool" />
+          <ScalarProperty Name="SchoolName" ColumnName="SchoolName" />
+          <ScalarProperty Name="DeptName" ColumnName="DeptName" />
+          <ScalarProperty Name="LynQUserid" ColumnName="LynQUserid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQderEvents">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQderEvent">
+        <MappingFragment StoreEntitySet="LynQderEvents">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="LynQGroup" ColumnName="LynQGroup" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="endd" ColumnName="endd" />
+          <ScalarProperty Name="LynQEvent" ColumnName="LynQEvent" />
+          <ScalarProperty Name="borderColor" ColumnName="borderColor" />
+          <ScalarProperty Name="backgroundColor" ColumnName="backgroundColor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQDocumentations">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQDocumentation">
+        <MappingFragment StoreEntitySet="LynQDocumentations">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="DocTitle" ColumnName="DocTitle" />
+          <ScalarProperty Name="DocContent" ColumnName="DocContent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQers">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQer">
+        <MappingFragment StoreEntitySet="LynQers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="LynQUserid" ColumnName="LynQUserid" />
+          <ScalarProperty Name="LynQFstname" ColumnName="LynQFstname" />
+          <ScalarProperty Name="LynQLstname" ColumnName="LynQLstname" />
+          <ScalarProperty Name="LynQOnames" ColumnName="LynQOnames" />
+          <ScalarProperty Name="LynQFname" ColumnName="LynQFname" />
+          <ScalarProperty Name="LynQGender" ColumnName="LynQGender" />
+          <ScalarProperty Name="LynQAge" ColumnName="LynQAge" />
+          <ScalarProperty Name="LynQerimg" ColumnName="LynQerimg" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="LynQSchimg" ColumnName="LynQSchimg" />
+          <ScalarProperty Name="LynQProg" ColumnName="LynQProg" />
+          <ScalarProperty Name="LynQStatus" ColumnName="LynQStatus" />
+          <ScalarProperty Name="LynQTivity" ColumnName="LynQTivity" />
+          <ScalarProperty Name="LynQInterest" ColumnName="LynQInterest" />
+          <ScalarProperty Name="CommentsViewed" ColumnName="CommentsViewed" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Rakeit" ColumnName="Rakeit" />
+          <ScalarProperty Name="N_image" ColumnName="N_image" />
+          <ScalarProperty Name="G_image" ColumnName="G_image" />
+          <ScalarProperty Name="I_image" ColumnName="I_image" />
+          <ScalarProperty Name="LynQLevell" ColumnName="LynQLevell" />
+          <ScalarProperty Name="LynQActive" ColumnName="LynQActive" />
+          <ScalarProperty Name="LynQUniqID" ColumnName="LynQUniqID" />
+          <ScalarProperty Name="Privacy" ColumnName="Privacy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQersComChats">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQersComChat">
+        <MappingFragment StoreEntitySet="LynQersComChats">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RealID" ColumnName="RealID" />
+          <ScalarProperty Name="CommId" ColumnName="CommId" />
+          <ScalarProperty Name="MessCom" ColumnName="MessCom" />
+          <ScalarProperty Name="Mesdate" ColumnName="Mesdate" />
+          <ScalarProperty Name="LynQFname" ColumnName="LynQFname" />
+          <ScalarProperty Name="LynQerimg" ColumnName="LynQerimg" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="LynQSchimg" ColumnName="LynQSchimg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQForums">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQForum">
+        <MappingFragment StoreEntitySet="LynQForums">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="realID" ColumnName="realID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="LynQFname" ColumnName="LynQFname" />
+          <ScalarProperty Name="LynQimg" ColumnName="LynQimg" />
+          <ScalarProperty Name="PostDate" ColumnName="PostDate" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="LynQSchimg" ColumnName="LynQSchimg" />
+          <ScalarProperty Name="LynQProg" ColumnName="LynQProg" />
+          <ScalarProperty Name="Likes" ColumnName="Likes" />
+          <ScalarProperty Name="Dislikes" ColumnName="Dislikes" />
+          <ScalarProperty Name="LynQLikers" ColumnName="LynQLikers" />
+          <ScalarProperty Name="LynQDislikers" ColumnName="LynQDislikers" />
+          <ScalarProperty Name="Postimgs" ColumnName="Postimgs" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQFriends">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQFriend">
+        <MappingFragment StoreEntitySet="LynQFriends">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQId" ColumnName="LynQId" />
+          <ScalarProperty Name="LynQer" ColumnName="LynQer" />
+          <ScalarProperty Name="LynQee" ColumnName="LynQee" />
+          <ScalarProperty Name="LynQedDate" ColumnName="LynQedDate" />
+          <ScalarProperty Name="LynQStatus" ColumnName="LynQStatus" />
+          <ScalarProperty Name="LynQerPic" ColumnName="LynQerPic" />
+          <ScalarProperty Name="LynQeePic" ColumnName="LynQeePic" />
+          <ScalarProperty Name="LynQerFname" ColumnName="LynQerFname" />
+          <ScalarProperty Name="LynQeeFname" ColumnName="LynQeeFname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQGenTrailStus">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQGenTrailStu">
+        <MappingFragment StoreEntitySet="LynQGenTrailStus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="ExamID" ColumnName="ExamID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQGradeClasses">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQGradeClass">
+        <MappingFragment StoreEntitySet="LynQGradeClasses">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSchool" ColumnName="LynQSchool" />
+          <ScalarProperty Name="StudClass" ColumnName="StudClass" />
+          <ScalarProperty Name="LstValue" ColumnName="LstValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQGrades">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQGrade">
+        <MappingFragment StoreEntitySet="LynQGrades">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSchool" ColumnName="LynQSchool" />
+          <ScalarProperty Name="GradSys" ColumnName="GradSys" />
+          <ScalarProperty Name="CMK" ColumnName="CMK" />
+          <ScalarProperty Name="EMK" ColumnName="EMK" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQGroups">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQGroup">
+        <MappingFragment StoreEntitySet="LynQGroups">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQGpName" ColumnName="LynQGpName" />
+          <ScalarProperty Name="GPAdmin" ColumnName="GPAdmin" />
+          <ScalarProperty Name="GPDate" ColumnName="GPDate" />
+          <ScalarProperty Name="GrPurpose" ColumnName="GrPurpose" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQGrpMems">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQGrpMem">
+        <MappingFragment StoreEntitySet="LynQGrpMems">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="LynQGpName" ColumnName="LynQGpName" />
+          <ScalarProperty Name="MemDate" ColumnName="MemDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQInfoBoards">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQInfoBoard">
+        <MappingFragment StoreEntitySet="LynQInfoBoards">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="Scope" ColumnName="Scope" />
+          <ScalarProperty Name="Info" ColumnName="Info" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQLectAssignCodes">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQLectAssignCode">
+        <MappingFragment StoreEntitySet="LynQLectAssignCodes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="AssignedBy" ColumnName="AssignedBy" />
+          <ScalarProperty Name="AssignedTo" ColumnName="AssignedTo" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="UqGrpName" ColumnName="UqGrpName" />
+          <ScalarProperty Name="Program" ColumnName="Program" />
+          <ScalarProperty Name="DateAssigned" ColumnName="DateAssigned" />
+          <ScalarProperty Name="Levell" ColumnName="Levell" />
+          <ScalarProperty Name="Semester" ColumnName="Semester" />
+          <ScalarProperty Name="UploadStatus" ColumnName="UploadStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQLectAssignElects">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQLectAssignElect">
+        <MappingFragment StoreEntitySet="LynQLectAssignElects">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="AssignedBy" ColumnName="AssignedBy" />
+          <ScalarProperty Name="AssignedTo" ColumnName="AssignedTo" />
+          <ScalarProperty Name="Optn" ColumnName="Optn" />
+          <ScalarProperty Name="NumbSel" ColumnName="NumbSel" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="UqGrpName" ColumnName="UqGrpName" />
+          <ScalarProperty Name="Program" ColumnName="Program" />
+          <ScalarProperty Name="DateAssigned" ColumnName="DateAssigned" />
+          <ScalarProperty Name="Levell" ColumnName="Levell" />
+          <ScalarProperty Name="Semester" ColumnName="Semester" />
+          <ScalarProperty Name="UploadStatus" ColumnName="UploadStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQLectAssignOptns">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQLectAssignOptn">
+        <MappingFragment StoreEntitySet="LynQLectAssignOptns">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="AssignedBy" ColumnName="AssignedBy" />
+          <ScalarProperty Name="AssignedTo" ColumnName="AssignedTo" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="UqGrpName" ColumnName="UqGrpName" />
+          <ScalarProperty Name="Program" ColumnName="Program" />
+          <ScalarProperty Name="Optn" ColumnName="Optn" />
+          <ScalarProperty Name="DateAssigned" ColumnName="DateAssigned" />
+          <ScalarProperty Name="Levell" ColumnName="Levell" />
+          <ScalarProperty Name="Semester" ColumnName="Semester" />
+          <ScalarProperty Name="UploadStatus" ColumnName="UploadStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQLoadersTemps">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQLoadersTemp">
+        <MappingFragment StoreEntitySet="LynQLoadersTemps">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="LynQLoaders" ColumnName="LynQLoaders" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQLoads">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQLoad">
+        <MappingFragment StoreEntitySet="LynQLoads">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Sender" ColumnName="Sender" />
+          <ScalarProperty Name="Receiver" ColumnName="Receiver" />
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+          <ScalarProperty Name="DateTimer" ColumnName="DateTimer" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQMajors">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQMajor">
+        <MappingFragment StoreEntitySet="LynQMajors">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSchool" ColumnName="LynQSchool" />
+          <ScalarProperty Name="SchoolName" ColumnName="SchoolName" />
+          <ScalarProperty Name="DeptName" ColumnName="DeptName" />
+          <ScalarProperty Name="ProgName" ColumnName="ProgName" />
+          <ScalarProperty Name="Major_Optn" ColumnName="Major_Optn" />
+          <ScalarProperty Name="LynQUserid" ColumnName="LynQUserid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQMajorStus">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQMajorStu">
+        <MappingFragment StoreEntitySet="LynQMajorStus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynSch" ColumnName="LynSch" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="ExamID" ColumnName="ExamID" />
+          <ScalarProperty Name="Optn" ColumnName="Optn" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQOfflineChats">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQOfflineChat">
+        <MappingFragment StoreEntitySet="LynQOfflineChats">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Sender" ColumnName="Sender" />
+          <ScalarProperty Name="Receiver" ColumnName="Receiver" />
+          <ScalarProperty Name="MessageNo" ColumnName="MessageNo" />
+          <ScalarProperty Name="LynQLoads" ColumnName="LynQLoads" />
+          <ScalarProperty Name="LynQDT" ColumnName="LynQDT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQPosts">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQPost">
+        <MappingFragment StoreEntitySet="LynQPosts">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="LynQFname" ColumnName="LynQFname" />
+          <ScalarProperty Name="LynQimg" ColumnName="LynQimg" />
+          <ScalarProperty Name="PostDate" ColumnName="PostDate" />
+          <ScalarProperty Name="ComDate" ColumnName="ComDate" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="LynQSchimg" ColumnName="LynQSchimg" />
+          <ScalarProperty Name="LynQProg" ColumnName="LynQProg" />
+          <ScalarProperty Name="PostLikes" ColumnName="PostLikes" />
+          <ScalarProperty Name="PostDislikes" ColumnName="PostDislikes" />
+          <ScalarProperty Name="LynQLikers" ColumnName="LynQLikers" />
+          <ScalarProperty Name="LynQDislikers" ColumnName="LynQDislikers" />
+          <ScalarProperty Name="PostStartimg" ColumnName="PostStartimg" />
+          <ScalarProperty Name="StartimgDescrip" ColumnName="StartimgDescrip" />
+          <ScalarProperty Name="Postimgs" ColumnName="Postimgs" />
+          <ScalarProperty Name="imgDescrip" ColumnName="imgDescrip" />
+          <ScalarProperty Name="PostComments" ColumnName="PostComments" />
+          <ScalarProperty Name="PostScope" ColumnName="PostScope" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQPrograms">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQProgram">
+        <MappingFragment StoreEntitySet="LynQPrograms">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSchool" ColumnName="LynQSchool" />
+          <ScalarProperty Name="SchoolName" ColumnName="SchoolName" />
+          <ScalarProperty Name="DeptName" ColumnName="DeptName" />
+          <ScalarProperty Name="ProgName" ColumnName="ProgName" />
+          <ScalarProperty Name="LynQUserid" ColumnName="LynQUserid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQQueAns">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQQueAn">
+        <MappingFragment StoreEntitySet="LynQQueAns">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="realID" ColumnName="realID" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="LynQFname" ColumnName="LynQFname" />
+          <ScalarProperty Name="LynQimg" ColumnName="LynQimg" />
+          <ScalarProperty Name="Ansdate" ColumnName="Ansdate" />
+          <ScalarProperty Name="Answer" ColumnName="Answer" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="LynQSchimg" ColumnName="LynQSchimg" />
+          <ScalarProperty Name="LynQProg" ColumnName="LynQProg" />
+          <ScalarProperty Name="Likes" ColumnName="Likes" />
+          <ScalarProperty Name="Dislikes" ColumnName="Dislikes" />
+          <ScalarProperty Name="LynQLikers" ColumnName="LynQLikers" />
+          <ScalarProperty Name="LynQDislikers" ColumnName="LynQDislikers" />
+          <ScalarProperty Name="Ansimgs" ColumnName="Ansimgs" />
+          <ScalarProperty Name="AnsChecked" ColumnName="AnsChecked" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQQues">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQQue">
+        <MappingFragment StoreEntitySet="LynQQues">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="QueryID" ColumnName="QueryID" />
+          <ScalarProperty Name="LynQquery" ColumnName="LynQquery" />
+          <ScalarProperty Name="LynQquerier" ColumnName="LynQquerier" />
+          <ScalarProperty Name="LynQFname" ColumnName="LynQFname" />
+          <ScalarProperty Name="LynQimg" ColumnName="LynQimg" />
+          <ScalarProperty Name="LynQSchimg" ColumnName="LynQSchimg" />
+          <ScalarProperty Name="LynQProg" ColumnName="LynQProg" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="QueryScope" ColumnName="QueryScope" />
+          <ScalarProperty Name="AnswersProv" ColumnName="AnswersProv" />
+          <ScalarProperty Name="Likes" ColumnName="Likes" />
+          <ScalarProperty Name="DisLikes" ColumnName="DisLikes" />
+          <ScalarProperty Name="Likers" ColumnName="Likers" />
+          <ScalarProperty Name="Dislikers" ColumnName="Dislikers" />
+          <ScalarProperty Name="QueryStatus" ColumnName="QueryStatus" />
+          <ScalarProperty Name="Queryimg" ColumnName="Queryimg" />
+          <ScalarProperty Name="Quedate" ColumnName="Quedate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQQuizAns">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQQuizAn">
+        <MappingFragment StoreEntitySet="LynQQuizAns">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="queid" ColumnName="queid" />
+          <ScalarProperty Name="alpha" ColumnName="alpha" />
+          <ScalarProperty Name="lynqans" ColumnName="lynqans" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQQuizQues">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQQuizQue">
+        <MappingFragment StoreEntitySet="LynQQuizQues">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQGrpName" ColumnName="LynQGrpName" />
+          <ScalarProperty Name="quizname" ColumnName="quizname" />
+          <ScalarProperty Name="lynqtion" ColumnName="lynqtion" />
+          <ScalarProperty Name="lynQAns" ColumnName="lynQAns" />
+          <ScalarProperty Name="lynqrect" ColumnName="lynqrect" />
+          <ScalarProperty Name="lynqrong" ColumnName="lynqrong" />
+          <ScalarProperty Name="lynqrecters" ColumnName="lynqrecters" />
+          <ScalarProperty Name="lynqrongers" ColumnName="lynqrongers" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQQuizs">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQQuiz">
+        <MappingFragment StoreEntitySet="LynQQuizs">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQGrpName" ColumnName="LynQGrpName" />
+          <ScalarProperty Name="QuizName" ColumnName="QuizName" />
+          <ScalarProperty Name="Submissions" ColumnName="Submissions" />
+          <ScalarProperty Name="calid" ColumnName="calid" />
+          <ScalarProperty Name="Hrs" ColumnName="Hrs" />
+          <ScalarProperty Name="Min" ColumnName="Min" />
+          <ScalarProperty Name="Sec" ColumnName="Sec" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQRequirements">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQRequirement">
+        <MappingFragment StoreEntitySet="LynQRequirements">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="ReqType" ColumnName="ReqType" />
+          <ScalarProperty Name="Levell" ColumnName="Levell" />
+          <ScalarProperty Name="Opera" ColumnName="Opera" />
+          <ScalarProperty Name="Premise" ColumnName="Premise" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="Semester" ColumnName="Semester" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQRSVPs">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQRSVP">
+        <MappingFragment StoreEntitySet="LynQRSVPs">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="LynQSites" ColumnName="LynQSites" />
+          <ScalarProperty Name="LynQScope" ColumnName="LynQScope" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQSchCalendars">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQSchCalendar">
+        <MappingFragment StoreEntitySet="LynQSchCalendars">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="LynQGroup" ColumnName="LynQGroup" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="endd" ColumnName="endd" />
+          <ScalarProperty Name="LynQEvent" ColumnName="LynQEvent" />
+          <ScalarProperty Name="borderColor" ColumnName="borderColor" />
+          <ScalarProperty Name="backgroundColor" ColumnName="backgroundColor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQSchools">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQSchool">
+        <MappingFragment StoreEntitySet="LynQSchools">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSchool1" ColumnName="LynQSchool1" />
+          <ScalarProperty Name="SchoolName" ColumnName="SchoolName" />
+          <ScalarProperty Name="LynQUserid" ColumnName="LynQUserid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQScoDetails">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQScoDetail">
+        <MappingFragment StoreEntitySet="LynQScoDetails">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Course" ColumnName="Course" />
+          <ScalarProperty Name="Descr" ColumnName="Descr" />
+          <ScalarProperty Name="Hrs" ColumnName="Hrs" />
+          <ScalarProperty Name="Min" ColumnName="Min" />
+          <ScalarProperty Name="Sec" ColumnName="Sec" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQScoMultiChoices">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQScoMultiChoice">
+        <MappingFragment StoreEntitySet="LynQScoMultiChoices">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="QNo" ColumnName="QNo" />
+          <ScalarProperty Name="Answers" ColumnName="Answers" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQScores">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQScore">
+        <MappingFragment StoreEntitySet="LynQScores">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="Score" ColumnName="Score" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQScotions">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQScotion">
+        <MappingFragment StoreEntitySet="LynQScotions">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="QNo" ColumnName="QNo" />
+          <ScalarProperty Name="lynqtion" ColumnName="lynqtion" />
+          <ScalarProperty Name="lynqAns" ColumnName="lynqAns" />
+          <ScalarProperty Name="lynqrecters" ColumnName="lynqrecters" />
+          <ScalarProperty Name="lynqwrongers" ColumnName="lynqwrongers" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQSubAssigns">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQSubAssign">
+        <MappingFragment StoreEntitySet="LynQSubAssigns">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQGrpName" ColumnName="LynQGrpName" />
+          <ScalarProperty Name="AssName" ColumnName="AssName" />
+          <ScalarProperty Name="Submissions" ColumnName="Submissions" />
+          <ScalarProperty Name="calid" ColumnName="calid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQTAds">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQTAd">
+        <MappingFragment StoreEntitySet="LynQTAds">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="AdId" ColumnName="AdId" />
+          <ScalarProperty Name="LynQITcategory" ColumnName="LynQITcategory" />
+          <ScalarProperty Name="LynQITName" ColumnName="LynQITName" />
+          <ScalarProperty Name="LynQITdesc" ColumnName="LynQITdesc" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="LynQFname" ColumnName="LynQFname" />
+          <ScalarProperty Name="LynQimg" ColumnName="LynQimg" />
+          <ScalarProperty Name="LynQSchimg" ColumnName="LynQSchimg" />
+          <ScalarProperty Name="LynQProg" ColumnName="LynQProg" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="LynQITPrice" ColumnName="LynQITPrice" />
+          <ScalarProperty Name="LynQersInterested" ColumnName="LynQersInterested" />
+          <ScalarProperty Name="Likes" ColumnName="Likes" />
+          <ScalarProperty Name="DisLikes" ColumnName="DisLikes" />
+          <ScalarProperty Name="Likers" ColumnName="Likers" />
+          <ScalarProperty Name="Dislikers" ColumnName="Dislikers" />
+          <ScalarProperty Name="ITStatus" ColumnName="ITStatus" />
+          <ScalarProperty Name="Itemimg" ColumnName="Itemimg" />
+          <ScalarProperty Name="AdDate" ColumnName="AdDate" />
+          <ScalarProperty Name="LynQTphony" ColumnName="LynQTphony" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LynQTradeChats">
+      <EntityTypeMapping TypeName="UnilynqDbModel.LynQTradeChat">
+        <MappingFragment StoreEntitySet="LynQTradeChats">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RealID" ColumnName="RealID" />
+          <ScalarProperty Name="Tradeid" ColumnName="Tradeid" />
+          <ScalarProperty Name="MessCom" ColumnName="MessCom" />
+          <ScalarProperty Name="Mesdate" ColumnName="Mesdate" />
+          <ScalarProperty Name="LynQFname" ColumnName="LynQFname" />
+          <ScalarProperty Name="LynQerimg" ColumnName="LynQerimg" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="LynQSchimg" ColumnName="LynQSchimg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NGrade_ProV">
+      <EntityTypeMapping TypeName="UnilynqDbModel.NGrade_ProV">
+        <MappingFragment StoreEntitySet="NGrade_ProV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="GradeCode" ColumnName="GradeCode" />
+          <ScalarProperty Name="ExamID" ColumnName="ExamID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Dept" ColumnName="Dept" />
+          <ScalarProperty Name="ProgStudy" ColumnName="ProgStudy" />
+          <ScalarProperty Name="Optn" ColumnName="Optn" />
+          <ScalarProperty Name="Levell" ColumnName="Levell" />
+          <ScalarProperty Name="Study_type" ColumnName="Study_type" />
+          <ScalarProperty Name="Acadyear" ColumnName="Acadyear" />
+          <ScalarProperty Name="Semester" ColumnName="Semester" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Course" ColumnName="Course" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+          <ScalarProperty Name="Grad" ColumnName="Grad" />
+          <ScalarProperty Name="Gp" ColumnName="Gp" />
+          <ScalarProperty Name="CMk" ColumnName="CMk" />
+          <ScalarProperty Name="EMk" ColumnName="EMk" />
+          <ScalarProperty Name="Mk" ColumnName="Mk" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NGrades">
+      <EntityTypeMapping TypeName="UnilynqDbModel.NGrade">
+        <MappingFragment StoreEntitySet="NGrades">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="GradeCode" ColumnName="GradeCode" />
+          <ScalarProperty Name="ExamID" ColumnName="ExamID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Dept" ColumnName="Dept" />
+          <ScalarProperty Name="ProgStudy" ColumnName="ProgStudy" />
+          <ScalarProperty Name="Optn" ColumnName="Optn" />
+          <ScalarProperty Name="Levell" ColumnName="Levell" />
+          <ScalarProperty Name="Study_type" ColumnName="Study_type" />
+          <ScalarProperty Name="Acadyear" ColumnName="Acadyear" />
+          <ScalarProperty Name="Semester" ColumnName="Semester" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Course" ColumnName="Course" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+          <ScalarProperty Name="Grad" ColumnName="Grad" />
+          <ScalarProperty Name="Gp" ColumnName="Gp" />
+          <ScalarProperty Name="CMk" ColumnName="CMk" />
+          <ScalarProperty Name="EMk" ColumnName="EMk" />
+          <ScalarProperty Name="Mk" ColumnName="Mk" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NRegistrations">
+      <EntityTypeMapping TypeName="UnilynqDbModel.NRegistration">
+        <MappingFragment StoreEntitySet="NRegistrations">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="ExamID" ColumnName="ExamID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Dept" ColumnName="Dept" />
+          <ScalarProperty Name="ProgStudy" ColumnName="ProgStudy" />
+          <ScalarProperty Name="Optn" ColumnName="Optn" />
+          <ScalarProperty Name="Levell" ColumnName="Levell" />
+          <ScalarProperty Name="RDate" ColumnName="RDate" />
+          <ScalarProperty Name="Study_type" ColumnName="Study_type" />
+          <ScalarProperty Name="Acadyear" ColumnName="Acadyear" />
+          <ScalarProperty Name="Semester" ColumnName="Semester" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Course" ColumnName="Course" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+          <ScalarProperty Name="Grad" ColumnName="Grad" />
+          <ScalarProperty Name="Gp" ColumnName="Gp" />
+          <ScalarProperty Name="CMk" ColumnName="CMk" />
+          <ScalarProperty Name="EMk" ColumnName="EMk" />
+          <ScalarProperty Name="Mk" ColumnName="Mk" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Skulzs">
+      <EntityTypeMapping TypeName="UnilynqDbModel.Skulz">
+        <MappingFragment StoreEntitySet="Skulzs">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Schools" ColumnName="Schools" />
+          <ScalarProperty Name="LynQSchimg" ColumnName="LynQSchimg" />
+          <ScalarProperty Name="Abv" ColumnName="Abv" />
+          <ScalarProperty Name="UploadStatus" ColumnName="UploadStatus" />
+          <ScalarProperty Name="Semester" ColumnName="Semester" />
+          <ScalarProperty Name="AcadYear" ColumnName="AcadYear" />
+          <ScalarProperty Name="Study_Type" ColumnName="Study_Type" />
+          <ScalarProperty Name="RenegadeChat" ColumnName="RenegadeChat" />
+          <ScalarProperty Name="ExaminationService" ColumnName="ExaminationService" />
+          <ScalarProperty Name="AuthorDepts" ColumnName="AuthorDepts" />
+          <ScalarProperty Name="RegStatus" ColumnName="RegStatus" />
+          <ScalarProperty Name="SchName" ColumnName="SchName" />
+          <ScalarProperty Name="SetCourses" ColumnName="SetCourses" />
+          <ScalarProperty Name="SHS" ColumnName="SHS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Status">
+      <EntityTypeMapping TypeName="UnilynqDbModel.Status">
+        <MappingFragment StoreEntitySet="Status">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQId" ColumnName="LynQId" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="LastEntry" ColumnName="LastEntry" />
+          <ScalarProperty Name="Pic" ColumnName="Pic" />
+          <ScalarProperty Name="LynQSchName" ColumnName="LynQSchName" />
+          <ScalarProperty Name="LynQSchPic" ColumnName="LynQSchPic" />
+          <ScalarProperty Name="LynQFriends" ColumnName="LynQFriends" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tags">
+      <EntityTypeMapping TypeName="UnilynqDbModel.Tag">
+        <MappingFragment StoreEntitySet="Tags">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Trail_List">
+      <EntityTypeMapping TypeName="UnilynqDbModel.Trail_List">
+        <MappingFragment StoreEntitySet="Trail_List">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="ExamID" ColumnName="ExamID" />
+          <ScalarProperty Name="ProgStudy" ColumnName="ProgStudy" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Grade" ColumnName="Grade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UChats">
+      <EntityTypeMapping TypeName="UnilynqDbModel.UChat">
+        <MappingFragment StoreEntitySet="UChats">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Sender" ColumnName="Sender" />
+          <ScalarProperty Name="Receiver" ColumnName="Receiver" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="LynQDate" ColumnName="LynQDate" />
+          <ScalarProperty Name="LynQTime" ColumnName="LynQTime" />
+          <ScalarProperty Name="LynQDT" ColumnName="LynQDT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UqCodings">
+      <EntityTypeMapping TypeName="UnilynqDbModel.UqCoding">
+        <MappingFragment StoreEntitySet="UqCodings">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="schid" ColumnName="schid" />
+          <ScalarProperty Name="LynQSch" ColumnName="LynQSch" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Course" ColumnName="Course" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+          <ScalarProperty Name="Dept" ColumnName="Dept" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UqTimeLines">
+      <EntityTypeMapping TypeName="UnilynqDbModel.UqTimeLine">
+        <MappingFragment StoreEntitySet="UqTimeLines">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="LynQName" ColumnName="LynQName" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="LynQScope" ColumnName="LynQScope" />
+          <ScalarProperty Name="refid" ColumnName="refid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Whies">
+      <EntityTypeMapping TypeName="UnilynqDbModel.Why">
+        <MappingFragment StoreEntitySet="Whies">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Dame" ColumnName="Dame" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

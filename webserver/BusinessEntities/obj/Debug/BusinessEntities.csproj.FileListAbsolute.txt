@@ -1,0 +1,5 @@
+c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessEntities\bin\Debug\BusinessEntities.dll
+c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessEntities\bin\Debug\BusinessEntities.pdb
+c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessEntities\obj\Debug\BusinessEntities.dll
+c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessEntities\obj\Debug\BusinessEntities.pdb
