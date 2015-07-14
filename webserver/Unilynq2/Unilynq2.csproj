@@ -344,16 +344,16 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Unilynq\BusinessEntities\BusinessEntities.csproj">
-      <Project>{5bf35a09-1844-442c-9e8f-ce342eabb2dc}</Project>
+    <ProjectReference Include="..\BusinessEntities\BusinessEntities.csproj">
+      <Project>{ebe65891-65f8-4585-8301-7ec7310abbdf}</Project>
       <Name>BusinessEntities</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Unilynq\BusinessServices\BusinessServices.csproj">
-      <Project>{921a13f8-c38e-4052-9490-08d253fae151}</Project>
+    <ProjectReference Include="..\BusinessServices\BusinessServices.csproj">
+      <Project>{6d4c6de5-3d87-4d9b-a7b5-c46cb5412295}</Project>
       <Name>BusinessServices</Name>
     </ProjectReference>
     <ProjectReference Include="..\Resolver\Resolver.csproj">
-      <Project>{2e3c8bc6-4e68-499c-8097-e9e1a3fb00aa}</Project>
+      <Project>{98902353-eec3-4116-844f-470e25d763fe}</Project>
       <Name>Resolver</Name>
     </ProjectReference>
   </ItemGroup>
@@ -375,7 +375,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>14588</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:14588/</IISUrl>
+          <IISUrl>http://localhost:8000/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

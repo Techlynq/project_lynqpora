@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{921A13F8-C38E-4052-9490-08D253FAE151}</ProjectGuid>
+    <ProjectGuid>{6D4C6DE5-3D87-4D9B-A7B5-C46CB5412295}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BusinessServices</RootNamespace>
@@ -37,6 +37,8 @@
       <HintPath>..\packages\AutoMapper.3.3.1\lib\net40\AutoMapper.Net4.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
@@ -46,22 +48,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DependencyResolver.cs" />
     <Compile Include="ILynQerServices.cs" />
+    <Compile Include="ITokenServices.cs" />
     <Compile Include="LynQerServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BusinessEntities\BusinessEntities.csproj">
-      <Project>{5bf35a09-1844-442c-9e8f-ce342eabb2dc}</Project>
-      <Name>BusinessEntities</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DataModels\DataModels.csproj">
-      <Project>{a331f144-9a37-4231-b585-f2c3fd9aa694}</Project>
-      <Name>DataModels</Name>
-    </ProjectReference>
+    <Compile Include="TokenServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessEntities\BusinessEntities.csproj">
+      <Project>{ebe65891-65f8-4585-8301-7ec7310abbdf}</Project>
+      <Name>BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataModels\DataModels.csproj">
+      <Project>{4b9971ea-9604-4d7a-8e09-152b2578a123}</Project>
+      <Name>DataModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Resolver\Resolver.csproj">
+      <Project>{98902353-eec3-4116-844f-470e25d763fe}</Project>
+      <Name>Resolver</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />

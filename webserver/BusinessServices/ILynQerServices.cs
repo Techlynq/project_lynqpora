@@ -1,4 +1,4 @@
-﻿using DataModel;
+﻿using DataModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,5 +15,8 @@ namespace BusinessServices
         int CreateLynQer(LynQerEntity lynQerEntity);
         bool UpdateLynQer(int lynQerId, LynQerEntity lynQerEntity);
         bool DeleteLynQer(int lynQerId);
+        int Authenticate(string lynQName, string Rakeit);
+
+
     }
 }

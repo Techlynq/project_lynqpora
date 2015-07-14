@@ -5,7 +5,7 @@
 		.module('uq')
 		.controller('UqController', UqController);
 
-	UqController.$inject = ['$scope','$state']
+	UqController.$inject = ['$scope','$state'];
 	function UqController($scope,$state)
 	{
 		$scope.app = {
@@ -33,7 +33,7 @@
         $scope.showSearchOverlay = function() {
             $scope.$broadcast('toggleSearchOverlay', {
                 show: true
-            })
+            });
         };
 	}
 })();

@@ -1,12 +1,11 @@
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\DataModels\bin\Debug\DataModels.dll.config
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\DataModels\bin\Debug\DataModels.dll
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\DataModels\bin\Debug\DataModels.pdb
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\DataModels\bin\Debug\EntityFramework.dll
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\DataModels\bin\Debug\EntityFramework.SqlServer.dll
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\DataModels\bin\Debug\EntityFramework.SqlServer.xml
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\DataModels\obj\Debug\DataModels.csprojResolveAssemblyReference.cache
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\DataModels\obj\Debug\DataModels.dll
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\DataModels\obj\Debug\DataModels.pdb
-C:\Users\Breezy\Documents\Visual Studio 2013\Projects\Unilynq\DataModels\bin\Debug\EntityFramework.xml
-C:\Users\Breezy\Documents\Visual Studio 2013\Projects\Unilynq\DataModels\obj\Debug\DataModels.Migrations.Initial.resources
-C:\Users\Breezy\Documents\Visual Studio 2013\Projects\Unilynq\DataModels\obj\Debug\DataModels.csproj.GenerateResource.Cache
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\DataModels\bin\Debug\DataModels.dll.config
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\DataModels\bin\Debug\DataModels.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\DataModels\bin\Debug\DataModels.pdb
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\DataModels\bin\Debug\EntityFramework.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\DataModels\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\DataModels\bin\Debug\EntityFramework.xml
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\DataModels\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\DataModels\obj\Debug\DataModels.Migrations.Initial.resources
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\DataModels\obj\Debug\DataModels.csproj.GenerateResource.Cache
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\DataModels\obj\Debug\DataModels.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\DataModels\obj\Debug\DataModels.pdb

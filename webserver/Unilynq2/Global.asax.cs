@@ -21,7 +21,7 @@ namespace Unilynq2
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
-            GlobalConfiguration.Configuration.Filters.Add(new ApiAuthenticationFilter());
+            //GlobalConfiguration.Configuration.Filters.Add(new ApiAuthenticationFilter());
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             Bootstrapper.Initialise();

@@ -1,4 +1,4 @@
-﻿using DataModel.UnitOfWork;
+﻿using DataModels.UnitOfWork;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,9 +15,9 @@ namespace BusinessServices
     {
         private readonly UnitOfWork _unitOfWork;
 
-        public LynQerServices()
+        public LynQerServices(UnitOfWork unitOfWork)
         {
-            _unitOfWork = new UnitOfWork();
+            _unitOfWork = unitOfWork;
         }
 
         public LynQerEntity GetLynQerById(int id)
@@ -96,6 +96,16 @@ namespace BusinessServices
                 }
             }
             return success;
+        }
+
+        public int Authenticate(string userName, string password)
+        {
+            var lynqer = _unitOfWork.LynQerRepository.Get(u => u.LynQName == userName && u.Rakeit == password);
+            if (lynqer != null && lynqer.Id > 0)
+            {
+                return lynqer.Id;
+            }
+            return 0;
         }
     }
 }

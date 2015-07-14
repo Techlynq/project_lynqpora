@@ -7,14 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataModel.GenericRepository
+namespace DataModels.GenericRepository
 {
    
     public class GenericRepository<TEntity> where TEntity : class
     {
         #region Private member variables...
         internal UnilynqDbEntities Context;
-        internal DbSet<TEntity> DbSet;
+        internal IDbSet<TEntity> DbSet;
         #endregion
 
         #region Public Constructor...

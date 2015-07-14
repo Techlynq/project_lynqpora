@@ -22,7 +22,6 @@ namespace Unilynq.Controllers
             _lynQerServices = lynQerServices;
         }
 
-        [ApiAuthenticationFilter]
         // GET api/lynqer
         public HttpResponseMessage Get()
         {

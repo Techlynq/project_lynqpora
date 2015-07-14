@@ -7,7 +7,7 @@
 
 	Landing.$inject = ['$scope','$timeout','routehelper'];
 	function Landing($scope,$timeout,routehelper){
-		$scope.message = "How are you doing today?";
+		$scope.message = 'How are you doing today?';
 	}
 	
 })();

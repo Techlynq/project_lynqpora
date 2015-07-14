@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Data.Entity.Validation;
-using DataModel.GenericRepository;
+using DataModels.GenericRepository;
 using DataModels.Models;
+using DataModels.UnitOfWork;
 
 
-namespace DataModel.UnitOfWork
+namespace DataModels.UnitOfWork
 {
-    public class UnitOfWork : IDisposable
+    public class UnitOfWork : IDisposable, IUnitOfWork
     {
         #region Private member variables...
 
@@ -68,6 +69,7 @@ namespace DataModel.UnitOfWork
         private GenericRepository<Skulz> _skulzRepository;
         private GenericRepository<Status> _statusRepository;
         private GenericRepository<Tag> _tagRepository;
+        private GenericRepository<Token> _tokenRepository;
         private GenericRepository<Trail_List> _trail_ListRepository;
         private GenericRepository<UChat> _uChatRepository;
         private GenericRepository<UqCoding> _uqCodingRepository;
@@ -628,6 +630,16 @@ namespace DataModel.UnitOfWork
                 if (this._tagRepository == null)
                     this._tagRepository = new GenericRepository<Tag>(_context);
                 return _tagRepository;
+            }
+        }
+
+        public GenericRepository<Token> TokenRepository
+        {
+            get
+            {
+                if (this._tokenRepository == null)
+                    this._tokenRepository = new GenericRepository<Token>(_context);
+                return _tokenRepository;
             }
         }
        

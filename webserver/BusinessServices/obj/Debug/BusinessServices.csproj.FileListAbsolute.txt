@@ -1,18 +1,24 @@
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessServices\bin\Debug\BusinessServices.dll
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessServices\bin\Debug\BusinessServices.pdb
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessServices\obj\Debug\BusinessServices.dll
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessServices\obj\Debug\BusinessServices.pdb
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessServices\bin\Debug\AutoMapper.Net4.dll
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessServices\bin\Debug\AutoMapper.dll
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessServices\bin\Debug\BusinessEntities.dll
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessServices\bin\Debug\DataModels.dll
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessServices\bin\Debug\EntityFramework.dll
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessServices\bin\Debug\BusinessEntities.pdb
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessServices\bin\Debug\DataModels.pdb
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessServices\bin\Debug\AutoMapper.pdb
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessServices\bin\Debug\AutoMapper.xml
-c:\Users\Breezy\documents\visual studio 2013\Projects\Unilynq\BusinessServices\bin\Debug\AutoMapper.Net4.pdb
-C:\Users\Breezy\Documents\Visual Studio 2013\Projects\Unilynq\BusinessServices\bin\Debug\EntityFramework.xml
-C:\Users\Breezy\Documents\Visual Studio 2013\Projects\Unilynq\BusinessServices\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Breezy\Documents\Visual Studio 2013\Projects\Unilynq\BusinessServices\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\AutoMapper.Net4.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\BusinessServices.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\BusinessServices.pdb
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\AutoMapper.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\BusinessEntities.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\DataModels.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\Resolver.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\EntityFramework.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\Unity.Mvc3.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\BusinessEntities.pdb
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\DataModels.pdb
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\Resolver.pdb
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\AutoMapper.pdb
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\AutoMapper.xml
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\AutoMapper.Net4.pdb
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\EntityFramework.xml
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\obj\Debug\BusinessServices.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessServices\obj\Debug\BusinessServices.pdb

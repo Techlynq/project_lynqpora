@@ -26,8 +26,8 @@
 	}
 
 	$scope.liveSearch = function() {
-        console.log("Live search for: " + $scope.search.query);
-    }
+        console.log('Live search for: ' + $scope.search.query);
+    };
 
 	// function setUserRole()
 	// {

@@ -11,5 +11,5 @@
                 el.replaceWith(el.children());
             }
         };
-    })
+    });
 })();
