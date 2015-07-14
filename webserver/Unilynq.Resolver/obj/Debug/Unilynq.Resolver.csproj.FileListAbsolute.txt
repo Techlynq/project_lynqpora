@@ -1,0 +1,12 @@
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\Resolver\obj\Debug\Resolver.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\Resolver\bin\Debug\Resolver.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\Resolver\bin\Debug\Resolver.pdb
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\Resolver\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\Resolver\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\Resolver\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\Resolver\bin\Debug\Unity.Mvc3.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\Resolver\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\Resolver\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\Resolver\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\Resolver\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\Resolver\obj\Debug\Resolver.pdb

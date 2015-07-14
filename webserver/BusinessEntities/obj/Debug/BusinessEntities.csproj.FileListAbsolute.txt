@@ -1,5 +1,0 @@
-C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessEntities\bin\Debug\BusinessEntities.dll
-C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessEntities\bin\Debug\BusinessEntities.pdb
-C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
-C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessEntities\obj\Debug\BusinessEntities.dll
-C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessEntities\obj\Debug\BusinessEntities.pdb

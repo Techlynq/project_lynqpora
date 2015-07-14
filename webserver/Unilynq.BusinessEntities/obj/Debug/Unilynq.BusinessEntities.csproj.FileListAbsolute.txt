@@ -1,0 +1,4 @@
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessEntities\bin\Debug\Unilynq.BusinessEntities.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessEntities\bin\Debug\Unilynq.BusinessEntities.pdb
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessEntities\obj\Debug\Unilynq.BusinessEntities.dll
+C:\Users\Breezy\Desktop\project_lynqpora\webserver\BusinessEntities\obj\Debug\Unilynq.BusinessEntities.pdb
